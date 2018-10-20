@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Test1">
+      <UniqueIdentifier>{7e6c7637-837a-485e-8f5e-8fcf7c7930d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test2">
+      <UniqueIdentifier>{ba391d64-4e8c-4ddc-a5ed-a7e3d8bae2bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test3">
+      <UniqueIdentifier>{d6272d8f-b16e-4513-8a0c-1772f489702f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestBugReport">
+      <UniqueIdentifier>{bf9ac1c8-32aa-4d29-8704-643821a1f4b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestLamda">
+      <UniqueIdentifier>{a9baef1b-9c14-401e-80bf-76b75af5b935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestSTL">
+      <UniqueIdentifier>{65246414-b285-4f18-b064-aeefca1b22b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Same.h">
+      <Filter>Test1</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Overload.h">
+      <Filter>Test2</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultDelete.h">
+      <Filter>Test3</Filter>
+    </ClInclude>
+    <ClInclude Include="TestBugReport.h">
+      <Filter>TestBugReport</Filter>
+    </ClInclude>
+    <ClInclude Include="TestLamda.h">
+      <Filter>TestLamda</Filter>
+    </ClInclude>
+    <ClInclude Include="Container.h">
+      <Filter>TestSTL</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPointer.h">
+      <Filter>TestSTL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AppMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Same.cpp">
+      <Filter>Test1</Filter>
+    </ClCompile>
+    <ClCompile Include="Overload.cpp">
+      <Filter>Test2</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultDelete.cpp">
+      <Filter>Test3</Filter>
+    </ClCompile>
+    <ClCompile Include="TestBugReport.cpp">
+      <Filter>TestBugReport</Filter>
+    </ClCompile>
+    <ClCompile Include="TestLamda.cpp">
+      <Filter>TestLamda</Filter>
+    </ClCompile>
+    <ClCompile Include="Container.cpp">
+      <Filter>TestSTL</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartPointer.cpp">
+      <Filter>TestSTL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AppMain.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
