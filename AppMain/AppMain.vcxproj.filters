@@ -16,12 +16,6 @@
     <Filter Include="Test1">
       <UniqueIdentifier>{7e6c7637-837a-485e-8f5e-8fcf7c7930d4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Test2">
-      <UniqueIdentifier>{ba391d64-4e8c-4ddc-a5ed-a7e3d8bae2bd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Test3">
-      <UniqueIdentifier>{d6272d8f-b16e-4513-8a0c-1772f489702f}</UniqueIdentifier>
-    </Filter>
     <Filter Include="TestBugReport">
       <UniqueIdentifier>{bf9ac1c8-32aa-4d29-8704-643821a1f4b0}</UniqueIdentifier>
     </Filter>
@@ -33,6 +27,12 @@
     </Filter>
     <Filter Include="TestMove">
       <UniqueIdentifier>{cacc4bfc-78b8-49e9-b155-819561113f7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestOverload">
+      <UniqueIdentifier>{ba391d64-4e8c-4ddc-a5ed-a7e3d8bae2bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestDefaultDelete">
+      <UniqueIdentifier>{d6272d8f-b16e-4513-8a0c-1772f489702f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -58,10 +58,10 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Overload.h">
-      <Filter>Test2</Filter>
+      <Filter>TestOverload</Filter>
     </ClInclude>
     <ClInclude Include="DefaultDelete.h">
-      <Filter>Test3</Filter>
+      <Filter>TestDefaultDelete</Filter>
     </ClInclude>
     <ClInclude Include="TestBugReport.h">
       <Filter>TestBugReport</Filter>
@@ -93,10 +93,10 @@
       <Filter>Test1</Filter>
     </ClCompile>
     <ClCompile Include="Overload.cpp">
-      <Filter>Test2</Filter>
+      <Filter>TestOverload</Filter>
     </ClCompile>
     <ClCompile Include="DefaultDelete.cpp">
-      <Filter>Test3</Filter>
+      <Filter>TestDefaultDelete</Filter>
     </ClCompile>
     <ClCompile Include="TestBugReport.cpp">
       <Filter>TestBugReport</Filter>
