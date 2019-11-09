@@ -19,6 +19,7 @@
 #include "Overload.h"
 #include <memory>
 #include "TestBugReport.h"
+#include "TestMove.h"
 
 using namespace std;
 
@@ -205,6 +206,12 @@ CTestRVO::CTestRVO(const CTestRVO& rhs)
 //extern void funcA(); // in LibA.lib
 int main()
 {
+
+	if (true)
+	{
+		TestMove();
+	}
+
 	//if (false)
 	//{
 	//	// ≤‚ ‘hashfunction
@@ -224,6 +231,12 @@ int main()
 	//	printf("p=%p", p);
 	//	return 0;
 	//}
+
+	if (true)
+	{
+		int i = 0x1234;
+		return 0;
+	}
 
 	if (true)
 	{

@@ -31,6 +31,9 @@
     <Filter Include="TestSTL">
       <UniqueIdentifier>{65246414-b285-4f18-b064-aeefca1b22b7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TestMove">
+      <UniqueIdentifier>{cacc4bfc-78b8-49e9-b155-819561113f7a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -72,6 +75,9 @@
     <ClInclude Include="SmartPointer.h">
       <Filter>TestSTL</Filter>
     </ClInclude>
+    <ClInclude Include="TestMove.h">
+      <Filter>TestMove</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -103,6 +109,9 @@
     </ClCompile>
     <ClCompile Include="SmartPointer.cpp">
       <Filter>TestSTL</Filter>
+    </ClCompile>
+    <ClCompile Include="TestMove.cpp">
+      <Filter>TestMove</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -161,6 +161,7 @@
     <ClInclude Include="targetver.h" />
     <ClInclude Include="TestBugReport.h" />
     <ClInclude Include="TestLamda.h" />
+    <ClInclude Include="TestMove.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AppMain.cpp" />
@@ -178,6 +179,7 @@
     </ClCompile>
     <ClCompile Include="TestBugReport.cpp" />
     <ClCompile Include="TestLamda.cpp" />
+    <ClCompile Include="TestMove.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
